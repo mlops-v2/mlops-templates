@@ -8,7 +8,7 @@ parameters:
   type: string
 - name: environment_file
   type: string
-  
+
 steps:
   - task: AzureCLI@2
     displayName: Register Azure ML environment (docker)
